@@ -1282,7 +1282,7 @@ flex-direction: column ;
 width: 1400px ;
 align-items: center;
 justify-content: center;
-height: 180rem !important;
+
 }
 .text h1{
   font-size: 7rem !important;
@@ -1296,11 +1296,15 @@ height: 180rem !important;
   height: 100rem !important;
  
 }
-.pre-employ-2{
-  display: block!important;
-  height: 100rem !important;
-  margin: 0 !important;
-}
+    .pre-employ-2 {
+        display: flex !important
+;
+      
+        margin: 0 !important;
+        width: 1400px;
+        align-items: center;
+        justify-content: center;
+    }
 .employ-2{
   display :block !important;
    margin: 0 !important;
