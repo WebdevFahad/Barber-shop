@@ -1248,10 +1248,10 @@ justify-content: space-evenly;
 .item2,
 .item3,
 .item4 {
-  display: flex;
+  display: flex !important;
   padding: 0.5rem;
-  justify-content: space-between;
-  width: 100% !important;
+  justify-content: space-evenly !important;
+  width: 80% !important;
 }
 .item1 span,
 .item2 span,
@@ -1261,6 +1261,13 @@ justify-content: space-evenly;
   color: #020202;
   font-weight: normal;
   font-family: Arial;
+  font-weight: bold !important;
+}
+.pr1{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
 }
 .item1 h3,
 .item2 h3,
@@ -1270,7 +1277,7 @@ justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: uppercase;
   font-size: 4rem !important;
-  font-weight: lighter;
+  font-weight:bolder !important;
   width: 100% !important;
 }
 .main-4{
