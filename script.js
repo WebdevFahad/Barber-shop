@@ -102,7 +102,7 @@ displayreview(currentidex);
 
 window.addEventListener("load",()=>{
 
-  window.scrollTo(0, 0);
+
 
 
   let loader=document.querySelector("#loadei")
