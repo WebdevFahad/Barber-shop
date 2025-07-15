@@ -95,43 +95,44 @@ displayreview(currentidex);
 
 
 
-  if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
-  }
+  // if ('scrollRestoration' in history) {
+  //   history.scrollRestoration = 'manual';
+  // }
 
 
-// window.addEventListener("load",()=>{
+window.addEventListener("load",()=>{
 
 
 
 
-//   let loader=document.querySelector("#loadei")
-//   let main=document.querySelector(".semi-loader")
-//   let th1=document.querySelector("#th-1")
-//   let afnav=document.querySelector("#af-nav")
-//   let nav1=document.querySelector("#nav-1")
+  let loader=document.querySelector("#loadei")
+  let main=document.querySelector(".semi-loader")
+  let th1=document.querySelector("#th-1")
+  let afnav=document.querySelector("#af-nav")
+  let nav1=document.querySelector("#nav-1")
 
-//   setTimeout(()=>{
-//        loader.classList.add("hidden")
-//        setTimeout(()=>{
-//         loader.style.display="none"
-//         document.body.classList.remove("lock-scroll")
-//         main.classList.add("show")
-//  setTimeout(()=>{
-//           afnav.classList.add("fadeup")
+  setTimeout(()=>{
+       loader.classList.add("hidden")
+        main.classList.add("show")
+       setTimeout(()=>{
+        loader.style.display="none"
+        document.body.classList.remove("lock-scroll")
+       
+ setTimeout(()=>{
+          afnav.classList.add("fadeup")
 
-//         },200)
-//         setTimeout(()=>{
-//           nav1.classList.add("fadedown")
-//         },400)
-//         setTimeout(()=>{
-// th1.classList.add("fadeup")
-//         },600)
+        },200)
+        setTimeout(()=>{
+          nav1.classList.add("fadedown")
+        },400)
+        setTimeout(()=>{
+th1.classList.add("fadeup")
+        },600)
       
 
-//        },800)
-//   },2000)
-// })
+       },800)
+  },2000)
+})
 
 
 function revealOnScrollOnce() {
