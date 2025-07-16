@@ -113,6 +113,7 @@ window.addEventListener("load",()=>{
 
   setTimeout(()=>{
        loader.classList.add("hidden")
+         loader.style.display="none"
         main.classList.add("show")
        setTimeout(()=>{
         loader.style.display="none"
