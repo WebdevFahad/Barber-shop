@@ -196,10 +196,7 @@ button:hover {
 }
 .m1l2 iframe {
   width: 400px !important;
-  padding: 1rem;
-  height: 500px !important;
-  border-radius: 2rem;
-  border: none;
+ 
 }
 .m1l3 {
   width: 50% !important;
@@ -2986,13 +2983,7 @@ button:hover {
 .md-main-2{
   display: none;
 }
-.m1l2 iframe {
-  width: 400px;
-  padding: 1rem;
-  height: 600px;
-  border-radius: 2rem;
-  border: none;
-}
+
 
 .main-2 {
   height: 85vh;

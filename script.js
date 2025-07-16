@@ -319,7 +319,18 @@ setTimeout(()=>{
 
 
 
+window.addEventListener("scroll", () => {
+  const map = document.getElementById("map");
+  const rect = map.getBoundingClientRect();
 
+  if (rect.top < window.innerHeight && !map.dataset.loaded) {
+    map.innerHTML = `<iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13508.039490135805!2d74.18553665541992!3d32.1770085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f298c417ced37%3A0xaf8f0535682478f9!2sGolden%20Grace%20hair%20%26%20beauty%20Saloon!5e0!3m2!1sen!2s!4v1747874746471!5m2!1sen!2s"
+      width="100%" height="450" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+    map.dataset.loaded = "true";
+  }
+});
 
 
 
